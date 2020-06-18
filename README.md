@@ -1,5 +1,7 @@
 # android-studio-template
 
+![](readme/show.png)
+
 ------
 
 ### How to install
