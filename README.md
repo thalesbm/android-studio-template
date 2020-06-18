@@ -2,9 +2,10 @@
 
 ### How to install
 
-##### Mac
+#### Mac
 - git clone 
 - cp -R android-studio-template/MVVM\ Template /Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/other/
+- cp -R android-studio-template/MVP\ Clean\ Template /Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/other/
 
-##### Windows
-git clone
+#### Windows
+- git clone
