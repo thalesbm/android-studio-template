@@ -10,7 +10,7 @@
 
 ###### Step 1.
 ```
-git clone 
+git clone https://github.com/thalesbm/android-studio-template.git
 ```
 
 ###### Step 2.
@@ -29,7 +29,7 @@ cp -R android-studio-template/MVP\ Clean\ Template /Applications/Android\ Studio
 
 ###### Step 1.
 ```
-git clone 
+git clone https://github.com/thalesbm/android-studio-template.git
 ```
 
 ###### Step 2.
