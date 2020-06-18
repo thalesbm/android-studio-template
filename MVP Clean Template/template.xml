@@ -1,7 +1,7 @@
 <template format="4"
         revision="1"
-        name="MVVM Architecture"
-        description="Creates a MVVM Architecture to make your life much easier!">
+        name="MVP Clean Template"
+        description="Creates a MVP Clean Architecture to make your life much easier!">
 
     <category value="Architectures"/>
 
@@ -23,7 +23,7 @@
         default="main_activity"
         help="The name of the layout to create for the activity" />
 
-    <!-- Package Name -->
+    <!-- Package Name -->   
     <parameter
         id="packageName"
         name="Package name"

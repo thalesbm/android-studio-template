@@ -5,10 +5,13 @@
         from="src/app_package/view/Activity.kt.ftl" 
         to="${escapeXmlAttribute(srcOut)}/view/${featureName}Activity.kt" />
 
-    <!-- copy to viewModel folder -->
+    <!-- copy to presenter folder -->
     <instantiate 
-        from="src/app_package/viewModel/ViewModel.kt.ftl" 
-        to="${escapeXmlAttribute(srcOut)}/viewModel/${featureName}ViewModel.kt" />
+        from="src/app_package/presenter/PresenterImpl.kt.ftl" 
+        to="${escapeXmlAttribute(srcOut)}/presenter/${featureName}PresenterImpl.kt" />
+    <instantiate 
+        from="src/app_package/presenter/Presenter.kt.ftl" 
+        to="${escapeXmlAttribute(srcOut)}/presenter/${featureName}Presenter.kt" />
     
     <!-- copy to interactor folder -->
     <instantiate 
