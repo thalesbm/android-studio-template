@@ -27,7 +27,7 @@ cp -R android-studio-template/MVP\ Clean\ Template /Applications/Android\ Studio
 
 ###### Step 1.
 ```
-- git clone 
+git clone 
 ```
 
 ###### Step 2.
