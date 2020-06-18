@@ -1,0 +1,87 @@
+<template format="4"
+        revision="1"
+        name="MVVM Architecture"
+        description="Creates a MVVM Architecture to make your life much easier!">
+
+    <category value="Architectures"/>
+
+    <parameter
+        id="featureName"
+        name="Feature Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="FeatureName"
+        help="The name of the activity class to create" />
+
+    <parameter
+        id="mainActivityLayout"
+        name="Layout Name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        default="main_activity"
+        help="The name of the layout to create for the activity" />
+
+    <!-- Activity -->
+    <!-- <parameter
+        id="mainActivityClass"
+        name="Activity Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MainActivity"
+        help="The name of the activity class to create" />
+
+    -->
+
+    <!-- ViewModel -->
+    <!-- <parameter
+        id="viewModelName"
+        name="View Model Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MainViewModel"
+        help="The name of the view model class to create" /> -->
+
+    <!-- Interactor -->
+    <!-- <parameter
+        id="interactorName"
+        name="Interactor Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MainInteractorImpl"
+        help="The name of the interactor class to create" />
+
+    <parameter
+        id="interactorInterfaceName"
+        name="Interactor Interface Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MainInteractor"
+        help="The name of the interactor interface to create" /> -->
+
+    <!-- Repository -->
+    <!-- <parameter
+        id="repositoryName"
+        name="Repository Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MainRepositoryImpl"
+        help="The name of the repository class to create" />
+
+    <parameter
+        id="repositoryInterfaceName"
+        name="Repository Interface Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MainRepository"
+        help="The name of the repository interface to create" /> -->
+
+    <!-- Package Name -->   
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+    <execute file="recipe.xml.ftl" />
+</template>
